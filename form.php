@@ -30,7 +30,7 @@ function curlRequest($url)
     {
             $fullname   = htmlentities(trim($_POST['fullname'])) ;
             $email  = htmlentities(trim($_POST['email']));
-            $phonenumber = htmlentities(trim($_POST['phonenumber(optional)']))
+            
         }
         else
         {
