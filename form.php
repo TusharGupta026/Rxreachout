@@ -2,7 +2,7 @@
 
   $captchaSiteKey = '6Le2g8IbAAAAAK16ntsr3zaHNePJ5kHQw31esX7u';
   $secret_key = '6Le2g8IbAAAAAGJq9-YvEKcbZOCQVtF3kV2fIYfq';
-   
+  
 function curlRequest($url)
 {
     $ch = curl_init();
@@ -28,9 +28,7 @@ function curlRequest($url)
  
         if($decodeGoogleResponse['success'] == 1)
     {
-            $fullname   = htmlentities(trim($_POST['fullname'])) ;
-            $email  = htmlentities(trim($_POST['email']));
-            
+            $success = '✔ Your message was sent successfully. Thank you!';
         }
         else
         {
