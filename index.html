@@ -697,14 +697,14 @@
     var errorLabel = document.getElementById('captchaError');
     var myForm=document.getElementById('myForm');
     var captchResponse=document.getElementById('recaptcha');
-    if(captchResponse.length == 0 ){
-      errorLabel.innerHTML = "Verify Captcha!";
-    }else{
+    if(captchResponse.length != 0 ){
       myForm.setAttribute('name','submit-to-google-sheet');
       myForm.setAttribute('onsubmit','toggleModal("modal-id")');
       errorLabel.innerHTML = "Captcha Verified";
       errorLabel.classList.remove('redCaptcha');
       errorLabel.classList.add('greenCaptcha');
+    }else{
+      errorLabel.innerHTML = "Verify Captcha!";
     }
 
     
