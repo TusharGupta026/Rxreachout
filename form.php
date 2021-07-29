@@ -1,6 +1,5 @@
 <?php 
 
-  $captchaSiteKey = '6Le2g8IbAAAAAK16ntsr3zaHNePJ5kHQw31esX7u';
   $secret_key = '6Le2g8IbAAAAAGJq9-YvEKcbZOCQVtF3kV2fIYfq';
   
 function curlRequest($url)
