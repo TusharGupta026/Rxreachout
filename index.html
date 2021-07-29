@@ -580,7 +580,7 @@
         </svg>
       </div>
     </div>
-    <form action="" method="POST" id="myForm" >
+    <form action="" method="POST" name="submit-to-google-sheet" id="myForm" >
       <div>
         <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
         <input class="w-full bg-white border text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -607,7 +607,7 @@
       <span id='captchaError'class="redCaptcha" > </span>
       <div class="mt-6">
         <button type="submit" id="submit" name="submit"
-          class="text-md font-semibold tracking-wide brandlime font-family text-gray-100 p-3 rounded-lg w-2/5 focus:outline-none focus:shadow-outline ">Submit</button>
+          class="text-md font-semibold tracking-wide brandlime font-family text-gray-100 p-3 rounded-lg w-2/5 focus:outline-none focus:shadow-outline not-allowed" title="Please Verify Captcha" disabled   aria-disabled="true">Submit</button>
       </div>
     </form>
   </div>
@@ -669,20 +669,7 @@
       </div>   
 </form> -->
 
-<script type="text/javascript">
-     const scriptURL = 'https://script.google.com/macros/s/AKfycbyAglxfzPK0t3fZKW5ozbSQ3HbzGhnMJVCstM9wQ24n71PiMHWtlJAhQxdacjbCUDoWKA/exec'
-     const form = document.forms['submit-to-google-sheet']
 
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-      })
-      function resetForm() {
-        window.parent.location = window.parent.location.href;
-      }
-</script>
 <script type="text/javascript">
   function toggleModal(modalID){
     document.getElementById(modalID).classList.toggle("hidden");
@@ -697,14 +684,20 @@
     var errorLabel = document.getElementById('captchaError');
     var myForm=document.getElementById('myForm');
     var captchResponse=document.getElementById('recaptcha');
-    if(captchResponse.length != 0 ){
-      myForm.setAttribute('name','submit-to-google-sheet');
+
+    if(captchResponse.length == 0){
+      errorLabel.innerHTML = "Verify Captcha!";
+    }else{
       myForm.setAttribute('onsubmit','toggleModal("modal-id")');
+      submitBtn.removeAttribute('disabled');
+      submitBtn.removeAttribute('aria-disabled');
+      submitBtn.removeAttribute('title');
+      submitBtn.setAttribute('title','Captcha Verified successfully');
+      submitBtn.classList.remove('not-allowed');
+      submitBtn.classList.remove('allowed-pointer');
       errorLabel.innerHTML = "Captcha Verified";
       errorLabel.classList.remove('redCaptcha');
       errorLabel.classList.add('greenCaptcha');
-    }else{
-      errorLabel.innerHTML = "Verify Captcha!";
     }
 
     
@@ -713,6 +706,20 @@
   function captchaExpired() {
     grecaptcha.reset();
   }
+</script>
+<script type="text/javascript">
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbyAglxfzPK0t3fZKW5ozbSQ3HbzGhnMJVCstM9wQ24n71PiMHWtlJAhQxdacjbCUDoWKA/exec'
+     const form = document.forms['submit-to-google-sheet']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+      function resetForm() {
+        window.parent.location = window.parent.location.href;
+      }
 </script>
 <script type="text/javascript">
   const phoneInputField = document.querySelector("#phone");
