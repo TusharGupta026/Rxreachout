@@ -1,5 +1,4 @@
 <?php 
-
   $secret_key = '6Le2g8IbAAAAAGJq9-YvEKcbZOCQVtF3kV2fIYfq';
   
 function curlRequest($url)
