@@ -4,9 +4,6 @@ var submitBtn = document.getElementById('submit');
  function resetForm() {
     window.parent.location = window.parent.location.href;
   }
-  function resetPage() {
-    window.parent.location = window.parent.location.href;
-  }
   $(document).ready(function(){
       $(".reset-btn").click(function(){
           $("#myForm").trigger("reset");
