@@ -185,36 +185,6 @@
   </div>
 </Section>
 
-<!--Why Section-->
-<Section id="why" class="hidden">
-  <div class="container px-5 mx-auto">
-    <div class="flex flex-col text-center w-full mb-0 sm:my-8 my-2">
-      <h2 class="text-4xl font-medium title-font font-family text-blue-900 ">Why?</h2>
-    </div>
-  </div>
-  <div class="min-w-screen min-h-screen flex items-top justify-center px-8 py-8">
-    <div class="w-full mx-auto rounded-3xl border-2 bg-gradient-to-t from-white to-indigo-50 shadow-md bg-white px-10 pt-16 pb-10 text-gray-600" style="max-width: 350px" x-data="app()">
-        <div class="overflow-hidden relative mb-10">
-            <div class="overflow-hidden relative cursor-grab relative" @pointerdown="touchstartX=$event.screenX,touchstartY=$event.screenY" @pointerup="touchendX=$event.screenX,touchendY=$event.screenY,$nextTick(()=>handleSwipe())">
-                <template x-for="(item,index) in slides">
-                    <div class="w-full overflow-hidden text-center select-none" x-show="item.show" x-transition:enter="transition duration-300 transform ease" :x-transition:enter-start="currentTransition.start" :x-transition:enter-end="currentTransition.end" x-transition:leave="absolute top-0 left-0 transition duration-300 transform ease" :x-transition:leave-start="previousTransition.start" :x-transition:leave-end="previousTransition.end">
-                        <div class="w-64 h-64 border rounded-full mx-auto mb-10 overflow-hidden bg-cover bg-center" :style="`background-image:url(${item.img})`"></div>
-                        <h2 x-text="item.title" class="font-bold text-xl text-indigo-500 mb-3"></h2>
-                        <p x-text="item.body" class="text-sm leading-tight h-16"></p>
-                    </div>
-                </template>
-            </div>
-        </div>
-        <div class="flex justify-center">
-            <template x-for="(item,index) in slides">
-                <span :id="`slideDot${index}`" class="w-2 h-2 rounded-full mx-1" :class="{'bg-indigo-500':index==currentIndex,'bg-gray-200':index!==currentIndex}"></span>
-            </template>
-        </div>
-    </div>
-  </div>
-  <div class="pt-1 w-full brandlime"></div>
-</Section>
-
 <!--About Section-->
 <Section id="aboutus" class="">
   <div class="container px-5 mx-auto">
