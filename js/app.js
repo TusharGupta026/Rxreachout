@@ -1,6 +1,7 @@
 var errorLabel = document.getElementById('captchaError');
 var submitBtn = document.getElementById('submit');
 
+
  function resetForm() {
     window.parent.location = window.parent.location.href;
   }
