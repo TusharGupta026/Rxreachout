@@ -1,0 +1,28 @@
+.brandlime{
+    background-color: #1A5473;
+}
+.brandlightlime{
+    background-color: #dff2bb;
+}
+.font-family{
+    font-family: "Lato", Sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  .not-allowed{
+    cursor:not-allowed;
+  }
+  .allowed-pointer{
+    cursor:pointer;
+  }
+  .redCaptcha{
+    color:red;
+  }
+  .greenCaptcha{
+    color:#5CB30B;
+  }
+  .cursor-grab {
+      cursor: grab;
+  }
