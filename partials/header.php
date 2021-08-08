@@ -1,9 +1,33 @@
-<div class="z-50 " x-data="{servicesOpen: false, menuOpen: false, mobileOpen: false}">
+<html>
+  <head>
+    <base target="_top">
+    <title>Rxreachout</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://unpkg.com/prefixfree@1.0.0/prefixfree.min.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/shortut-logo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  </head>
+<body>
+<!--NavBar-->
+<header id="header" class="relative">
+  <div class="z-50 " x-data="{servicesOpen: false, menuOpen: false, mobileOpen: false}">
     <div class="relative">
       <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-6 sm:px-6 sm:py-6 lg:px-8 md:justify-start md:space-x-10 ">
         <div>
-          <a href="index.html"  class="flex">
-            <img class="h-auto w-auto sm:h-auto px-5" src="img/logo2.png" alt="rxreachout">
+          <a href="../index.html"  class="flex">
+            <img class="h-auto w-auto sm:h-auto px-5" src="../img/logo2.png" alt="rxreachout">
           </a>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -18,16 +42,16 @@
           <nav class="flex space-x-10 font-family">
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-              <a href="index.html#services"  type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="solutions-button" x-on:click="servicesOpen = true">
+              <a href="../index.html#services"  type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="solutions-button" x-on:click="servicesOpen = true">
                 <span>Services</span>
               </a>
             </div>           
-            <a href="index.html#aboutus"  class="text-base leading-6 font-medium text-gray-900 hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150">
+            <a href="../index.html#aboutus"  class="text-base leading-6 font-medium text-gray-900 hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150">
               About
             </a>
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-9000" -->
-              <a href="index.html#contactus" type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="menu-button" x-on:click="menuOpen = true">
+              <a href="../index.html#contactus" type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="menu-button" x-on:click="menuOpen = true">
                 <span>Contact</span>
               </a>
             </div>
@@ -51,7 +75,7 @@
         <div class="pt-5 pb-6 px-5 space-y-6 sm:space-y-8 sm:pb-8">
           <div class="flex items-center justify-between">
             <div>
-              <img class="h-auto w-auto" src="img/logo2.png" alt="rxreachout">
+              <img class="h-auto w-auto" src="../img/logo2.png" alt="rxreachout">
             </div>
             <div class="-mr-2">
               <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
@@ -65,7 +89,7 @@
           <div>
             <nav class="space-y-8">
               <div class="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4 font-family">
-                <a href="index.html#services" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                <a href="../index.html#services" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md brandlime text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: shield-check -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,7 +100,7 @@
                     Services
                   </div>
                 </a>
-                <a href="index.html#aboutus"class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                <a href="../index.html#aboutus"class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md brandlime text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: cursor-click -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -87,7 +111,7 @@
                     About
                   </div>
                 </a>
-                <a href="index.html#contactus" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                <a href="../index.html#contactus" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md brandlime text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: view-grid -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -106,3 +130,4 @@
     </div>
   </div>
 </div>
+</header>

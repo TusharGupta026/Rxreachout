@@ -1,4 +1,6 @@
-<div class="bg-gradient-to-t from-white via-blue-50 to-white ">
+<!--Hero Section-->
+<Section id="hero">
+  <div class="bg-gradient-to-t from-white via-blue-50 to-white ">
     <div class="container m-auto px-6">
       <div class="lg:flex justify-between items-center">
         <div class="lg:w-6/12">
@@ -13,7 +15,7 @@
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded">
-              <a href="index.html#contactus" class="w-full flex-wrap items-center justify-center px-8 py-3 border border-transparent text-xl font-medium rounded-lg text-white brandlime hover:brandlime font-family md:py-2 md:text-lg md:px-10">
+              <a href="../index.html#contactus" class="w-full flex-wrap items-center justify-center px-8 py-3 border border-transparent text-xl font-medium rounded-lg text-white brandlime hover:brandlime font-family md:py-2 md:text-lg md:px-10">
                 Book a Call
               </a>
             </div>
@@ -21,4 +23,5 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+</Section>
