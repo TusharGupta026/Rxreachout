@@ -26,7 +26,7 @@
     <div class="relative">
       <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-6 sm:px-6 sm:py-6 lg:px-8 md:justify-start md:space-x-10 ">
         <div>
-          <a href="../index.html"  class="flex">
+          <a href="../index.php"  class="flex">
             <img class="h-auto w-auto sm:h-auto px-5" src="../img/logo2.png" alt="rxreachout">
           </a>
         </div>
@@ -42,16 +42,16 @@
           <nav class="flex space-x-10 font-family">
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-              <a href="../index.html#services"  type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="solutions-button" x-on:click="servicesOpen = true">
+              <a href="../index.php#services"  type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="solutions-button" x-on:click="servicesOpen = true">
                 <span>Services</span>
               </a>
             </div>           
-            <a href="../index.html#aboutus"  class="text-base leading-6 font-medium text-gray-900 hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150">
+            <a href="../index.php#aboutus"  class="text-base leading-6 font-medium text-gray-900 hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150">
               About
             </a>
             <div class="relative">
               <!-- Item active: "text-gray-900", Item inactive: "text-gray-9000" -->
-              <a href="../index.html#contactus" type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="menu-button" x-on:click="menuOpen = true">
+              <a href="../index.php#contactus" type="button" class="text-gray-900 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-600 focus:outline-none focus:text-gray-600 transition ease-in-out duration-150" id="menu-button" x-on:click="menuOpen = true">
                 <span>Contact</span>
               </a>
             </div>
@@ -89,7 +89,7 @@
           <div>
             <nav class="space-y-8">
               <div class="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4 font-family">
-                <a href="../index.html#services" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                <a href="../index.php#services" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md brandlime text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: shield-check -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -100,7 +100,7 @@
                     Services
                   </div>
                 </a>
-                <a href="../index.html#aboutus"class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                <a href="../index.php#aboutus"class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md brandlime text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: cursor-click -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -111,7 +111,7 @@
                     About
                   </div>
                 </a>
-                <a href="../index.html#contactus" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                <a href="../index.php#contactus" class="-m-3 space-x-4 flex items-center p-3 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md brandlime text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: view-grid -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

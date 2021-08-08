@@ -22,7 +22,7 @@
                     <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
                 </div>
                   <div class="rounded">
-                    <a href="pages/local-keyword-research.html" class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                    <a href="pages/local-keyword-research.php" class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                       Learn More
                     </a>
                   </div>
@@ -41,7 +41,7 @@
                   <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
               </div>
                 <div class="rounded">
-                  <a href="pages/analytics-and-conversionc-tracking.html" class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                  <a href="pages/analytics-and-conversionc-tracking.php" class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                     Learn More
                   </a>
                 </div>
@@ -60,7 +60,7 @@
                 <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
             </div>
               <div class="rounded">
-                <a href="pages/citation-building.html" class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                <a href="pages/citation-building.php" class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                   Learn More
                 </a>
               </div>
@@ -79,7 +79,7 @@
                   <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
               </div>
                 <div class="rounded">
-                  <a href="pages/google-my-business-optimization.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                  <a href="pages/google-my-business-optimization.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                     Learn More
                   </a>
                 </div>
@@ -98,7 +98,7 @@
                 <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
             </div>
               <div class="rounded">
-                <a href="pages/local-adwords-setup.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                <a href="pages/local-adwords-setup.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                   Learn More
                 </a>
               </div>
@@ -117,7 +117,7 @@
                   <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
               </div>
                 <div class="rounded">
-                  <a href="pages/on-page-localization.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                  <a href="pages/on-page-localization.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                     Learn More
                   </a>
                 </div>
@@ -136,7 +136,7 @@
                 <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
             </div>
               <div class="rounded">
-                <a href="pages/duplicate-content-cleanup.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                <a href="pages/duplicate-content-cleanup.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                   Learn More
                 </a>
               </div>
@@ -155,7 +155,7 @@
                   <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
               </div>
                 <div class="rounded">
-                  <a href="pages/review-generation.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                  <a href="pages/review-generation.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                     Learn More
                   </a>
                 </div>
@@ -174,7 +174,7 @@
                 <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
             </div>
               <div class="rounded">
-                <a href="pages/video-to-text.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                <a href="pages/video-to-text.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                   Learn More
                 </a>
               </div>
@@ -193,7 +193,7 @@
                   <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
               </div>
                 <div class="rounded">
-                  <a href="pages/local-page-creation.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                  <a href="pages/local-page-creation.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                     Learn More
                   </a>
                 </div>
@@ -212,7 +212,7 @@
                 <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
             </div>
               <div class="rounded">
-                <a href="pages/video-introduction.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                <a href="pages/video-introduction.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                   Learn More
                 </a>
               </div>
@@ -231,7 +231,7 @@
                   <p class="focus:outline-none sm:text-lg text-base py-4 lg:py-8 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id mi quis sapien pellentesque hendrerit non sit amet felis. Vivamus dolor neque, consequat at tellus ut, tristique vehicula elit.</p>
               </div>
                 <div class="rounded">
-                  <a href="pages/video-testimonial.html"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
+                  <a href="pages/video-testimonial.php"class="w-full flex-wrap items-center justify-center px-4 sm:mx-8 py-2 border border-transparent text-base font-family font-medium rounded-lg text-white brandlime hover:brandlime md:py-2 md:text-base md:px-4">
                     Learn More
                   </a>
                 </div>

@@ -14,9 +14,9 @@
                 </div>
                   <div class="flex flex-col ">
                     <span class="font-semibold text-gray-50 text-xl mb-2">Policies</span>
-                    <span class="my-1"><a href="../policies/terms-of-use.html" class="text-gray-50 text-md hover:text-gray-200">Terms of Use</a></span>
-                    <span class="my-1"><a href="../policies/privacy-policy.html" class="text-gray-50 text-md hover:text-gray-200">Privacy Policy</a></span>
-                    <span class="my-1"><a href="../policies/disclaimer.html" class="text-gray-50 text-md hover:text-gray-200">Disclaimer</a></span>
+                    <span class="my-1"><a href="../policies/terms-of-use.php" class="text-gray-50 text-md hover:text-gray-200">Terms of Use</a></span>
+                    <span class="my-1"><a href="../policies/privacy-policy.php" class="text-gray-50 text-md hover:text-gray-200">Privacy Policy</a></span>
+                    <span class="my-1"><a href="../policies/disclaimer.php" class="text-gray-50 text-md hover:text-gray-200">Disclaimer</a></span>
                   </div>
                   <div class="flex flex-col ">
                       <span class="font-semibold text-gray-50 text-xl mb-2">Contact Us</span>
